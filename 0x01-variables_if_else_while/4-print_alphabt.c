@@ -2,11 +2,11 @@
 #include<string.h>
 #include<stdlib.h>
 /**
- * main-Prints lower case alphabets 
+ * main-Prints lower case alphabts using putchar
  *
  * Return: 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int i;
 
