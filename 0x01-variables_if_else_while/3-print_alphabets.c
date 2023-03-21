@@ -7,11 +7,11 @@
 int main(void)
 {
 	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-		int i;
+		int p;
 
-	for (i = 0; i < 52; i++)
+	for (p = 0; p < 52; p++)
 	{
-		putchar(alp[i]);
+		putchar(alp[p]);
 	}
 	putchar('\n');
 	return (0);
