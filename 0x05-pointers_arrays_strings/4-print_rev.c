@@ -19,10 +19,10 @@ void print_rev(char *s)
 	s--;
 	for (o = longi; o > 0; o--)
 	{
-		puts(*s);
+		_putchar(*s);
 		s--;
 	}
 
 	+
-		puts('\n');
+		_putchar('\n');
 }
